@@ -11,6 +11,13 @@
 |
 */
 
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('templates/pages/index');
+});
+Route::get('/product', function () {
+    return view('templates/pages/product');
 });
