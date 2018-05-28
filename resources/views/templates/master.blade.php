@@ -342,7 +342,8 @@
 			</nav>
 		</div>
 	</header>
+	
 	@yield('content')
-	@yield('component')
+
 	@include('templates/partials/footer')
 
